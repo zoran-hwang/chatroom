@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title><%= title %></title>
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+<body>
+    <div>
+        <h1 style="color:#000;">我的名字:<span class="name"></span></h1>
+        <div id="chat-area">
+            <div class="messages"></div>
+        </div>
+        <input type="text" class="inputMessage" placeholder="按回车键发送" style="width:780px;" />
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/client.js"></script>
+</html>

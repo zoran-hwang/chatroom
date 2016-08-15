@@ -1,0 +1,25 @@
+body {
+  /*padding: 50px;*/
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #00B7FF;
+}
+#chat-area{
+	width:800px;
+	height:500px;
+	background-color:#000;
+	overflow-y:scroll;
+}
+.inputMessage{
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+}
+input::-webkit-input-placeholder{color:#333;font-size: 22px;}
+input::-moz-input-placeholder{color:#333;font-size: 22px;}
+input:-moz-input-placeholder{color:#333;font-size: 22px;}
+input::-ms-input-placeholder{color:#333;font-size: 22px;}
+
